@@ -1,0 +1,240 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1110; Version 2004; 64bit' Language: 'en' Physical Memory: 16344 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Mike/Desktop/repos/ml-agents-dodgeball-env
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58741
+Successfully changed project path to: C:/Users/Mike/Desktop/repos/ml-agents-dodgeball-env
+C:/Users/Mike/Desktop/repos/ml-agents-dodgeball-env
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 65.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Mike/Desktop/repos/ml-agents-dodgeball-env/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001830 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.557 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.1 MB.
+System memory in use after: 200.4 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 3221.
+Total: 3.018100 ms (FindLiveObjects: 0.354500 ms CreateObjectMapping: 0.208400 ms MarkObjects: 2.378200 ms  DeleteObjects: 0.075800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Models/Characters/Fantasy/LilNinja
+  artifactKey: Guid(2c7850bf3aad41f4b865107143ddd8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja using Guid(2c7850bf3aad41f4b865107143ddd8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae5fe03c7f484e466504632bead05db') in 0.005231 seconds
+  Import took 0.009000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Models/Characters
+  artifactKey: Guid(29b559b596a92ac438cce77634c8ca77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters using Guid(29b559b596a92ac438cce77634c8ca77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7f1cc988bfe51360835bc408bc4871') in 0.001894 seconds
+  Import took 0.005476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Models
+  artifactKey: Guid(1d53ce64c93594940bac2cd87971124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(1d53ce64c93594940bac2cd87971124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19afc4952999640ac95fb1c2c7b7772') in 0.002717 seconds
+  Import took 0.006907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/LilNinja.prefab
+  artifactKey: Guid(e69034fe4795182429c8899ffc550eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/LilNinja.prefab using Guid(e69034fe4795182429c8899ffc550eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c93ef99c20aaa3e60c30179b210e77') in 0.152604 seconds
+  Import took 0.157081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Models/Characters/Fantasy
+  artifactKey: Guid(7282fe284dafc024485fa4d9573a001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy using Guid(7282fe284dafc024485fa4d9573a001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258a3fd733e1d066c5d23353794d9736') in 0.001679 seconds
+  Import took 0.005470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.966934 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/LilNinja.unity
+  artifactKey: Guid(4293502f938fdaa4ea3942fc43b8e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/LilNinja.unity using Guid(4293502f938fdaa4ea3942fc43b8e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7df6e27f6168da6dbd2b8a4d38b8a9') in 0.002829 seconds
+  Import took 0.007245 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.641 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.8 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3234.
+Total: 2.379600 ms (FindLiveObjects: 0.271000 ms CreateObjectMapping: 0.147300 ms MarkObjects: 1.927600 ms  DeleteObjects: 0.033000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.451020 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Happy.anim
+  artifactKey: Guid(99577c3349048714fab87e18892f90c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Happy.anim using Guid(99577c3349048714fab87e18892f90c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd297053af4b488d19619c4311a8176cd') in 0.018350 seconds
+  Import took 0.022955 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.691 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.6 MB.
+System memory in use after: 198.9 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3238.
+Total: 3.638600 ms (FindLiveObjects: 0.432000 ms CreateObjectMapping: 0.207400 ms MarkObjects: 2.966200 ms  DeleteObjects: 0.031500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.755629 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Sad.anim
+  artifactKey: Guid(8293730ec5d96ba438f2f1e43df5fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Sad.anim using Guid(8293730ec5d96ba438f2f1e43df5fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb04fd452d73e0216fe0d2359ab1304') in 0.015996 seconds
+  Import took 0.020583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.600767 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Surprised.anim
+  artifactKey: Guid(42d8e4c633c7dda41b36696ec609bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Surprised.anim using Guid(42d8e4c633c7dda41b36696ec609bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d4b658d58c86e1f472dc68184e896b') in 0.002904 seconds
+  Import took 0.007701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002264 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Surprised.anim
+  artifactKey: Guid(42d8e4c633c7dda41b36696ec609bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Surprised.anim using Guid(42d8e4c633c7dda41b36696ec609bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d4b658d58c86e1f472dc68184e896b') in 0.002915 seconds
+  Import took 0.006967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.130620 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Dead.anim
+  artifactKey: Guid(ca92a24f185adf34bb3c18625215ae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Dead.anim using Guid(ca92a24f185adf34bb3c18625215ae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed6826102452e5a14eb20b2fd9e808a') in 0.002743 seconds
+  Import took 0.007390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000947 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Dead.anim
+  artifactKey: Guid(ca92a24f185adf34bb3c18625215ae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Dead.anim using Guid(ca92a24f185adf34bb3c18625215ae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed6826102452e5a14eb20b2fd9e808a') in 0.002417 seconds
+  Import took 0.006499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.912331 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/LilNinjaSettings.lighting
+  artifactKey: Guid(33698731ef7c4c2489520d86ccf7e2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/LilNinjaSettings.lighting using Guid(33698731ef7c4c2489520d86ccf7e2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e417c1ca4c923503177f3b417beb0d0') in 0.004407 seconds
+  Import took 0.008689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002451 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/LilNinjaSettings.lighting
+  artifactKey: Guid(33698731ef7c4c2489520d86ccf7e2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/LilNinjaSettings.lighting using Guid(33698731ef7c4c2489520d86ccf7e2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e417c1ca4c923503177f3b417beb0d0') in 0.002413 seconds
+  Import took 0.006473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 390.255937 seconds.
+  path: Assets/ML-Agents
+  artifactKey: Guid(11630fa83cc8b4194b94352e3e6cdb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents using Guid(11630fa83cc8b4194b94352e3e6cdb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e65f7a447c3eafd0660b3a2094c142') in 0.002804 seconds
+  Import took 0.008373 seconds .
+
