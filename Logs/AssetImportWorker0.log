@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Mike/Desktop/repos/ml-agents-dodgeball-env
+C:/Users/Mike/Desktop/repos/NonFungibleNinjas
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58741
-Successfully changed project path to: C:/Users/Mike/Desktop/repos/ml-agents-dodgeball-env
-C:/Users/Mike/Desktop/repos/ml-agents-dodgeball-env
+53199
+Successfully changed project path to: C:/Users/Mike/Desktop/repos/NonFungibleNinjas
+C:/Users/Mike/Desktop/repos/NonFungibleNinjas
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.84 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 69.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Mike/Desktop/repos/ml-agents-dodgeball-env/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Mike/Desktop/repos/NonFungibleNinjas/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,206 +35,738 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001830 seconds.
+Registered in 0.001849 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.76 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 57.60 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.986 seconds
+- Completed reload, in  0.992 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008025 seconds.
+Registered in 0.007709 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.21 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 59.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.557 seconds
+- Completed reload, in  1.538 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 200.1 MB.
-System memory in use after: 200.4 MB.
+System memory in use before: 200.4 MB.
+System memory in use after: 200.6 MB.
 
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 3221.
-Total: 3.018100 ms (FindLiveObjects: 0.354500 ms CreateObjectMapping: 0.208400 ms MarkObjects: 2.378200 ms  DeleteObjects: 0.075800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Models/Characters/Fantasy/LilNinja
-  artifactKey: Guid(2c7850bf3aad41f4b865107143ddd8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters/Fantasy/LilNinja using Guid(2c7850bf3aad41f4b865107143ddd8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae5fe03c7f484e466504632bead05db') in 0.005231 seconds
-  Import took 0.009000 seconds .
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 3223.
+Total: 2.525500 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.128300 ms MarkObjects: 2.117500 ms  DeleteObjects: 0.030400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Models/Characters
-  artifactKey: Guid(29b559b596a92ac438cce77634c8ca77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters using Guid(29b559b596a92ac438cce77634c8ca77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7f1cc988bfe51360835bc408bc4871') in 0.001894 seconds
-  Import took 0.005476 seconds .
+  path: Assets/Dodgeball/Scenes/CaptureTheFlagVideoCapture.unity
+  artifactKey: Guid(c7787af32a5a747cba13510195a26147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/Scenes/CaptureTheFlagVideoCapture.unity using Guid(c7787af32a5a747cba13510195a26147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45c3616393eb13e14f65f9b67ea1e43') in 0.010873 seconds
+  Import took 0.015988 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Models
-  artifactKey: Guid(1d53ce64c93594940bac2cd87971124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(1d53ce64c93594940bac2cd87971124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19afc4952999640ac95fb1c2c7b7772') in 0.002717 seconds
-  Import took 0.006907 seconds .
+  Time since last request: 4.011226 seconds.
+  path: Assets/Dodgeball/Scenes/CaptureTheFlagVideoCapture.unity
+  artifactKey: Guid(c7787af32a5a747cba13510195a26147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/Scenes/CaptureTheFlagVideoCapture.unity using Guid(c7787af32a5a747cba13510195a26147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45c3616393eb13e14f65f9b67ea1e43') in 0.001672 seconds
+  Import took 0.005669 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.9 MB.
+System memory in use after: 142.1 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3223.
+Total: 2.803500 ms (FindLiveObjects: 0.352800 ms CreateObjectMapping: 0.145900 ms MarkObjects: 2.263300 ms  DeleteObjects: 0.040700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Models/Characters/Fantasy/LilNinja/LilNinja.prefab
-  artifactKey: Guid(e69034fe4795182429c8899ffc550eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters/Fantasy/LilNinja/LilNinja.prefab using Guid(e69034fe4795182429c8899ffc550eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c93ef99c20aaa3e60c30179b210e77') in 0.152604 seconds
-  Import took 0.157081 seconds .
+  Time since last request: 347.679644 seconds.
+  path: Assets/Dodgeball/Scenes/CaptureTheFlag_Training.unity
+  artifactKey: Guid(c8cbb38ee4ca44cf6b08f040394d80e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/Scenes/CaptureTheFlag_Training.unity using Guid(c8cbb38ee4ca44cf6b08f040394d80e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb0015d17fdfa5adf41f77321b3aaf0') in 0.006441 seconds
+  Import took 0.013203 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Models/Characters/Fantasy
-  artifactKey: Guid(7282fe284dafc024485fa4d9573a001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters/Fantasy using Guid(7282fe284dafc024485fa4d9573a001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258a3fd733e1d066c5d23353794d9736') in 0.001679 seconds
-  Import took 0.005470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.966934 seconds.
-  path: Assets/Models/Characters/Fantasy/LilNinja/LilNinja.unity
-  artifactKey: Guid(4293502f938fdaa4ea3942fc43b8e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters/Fantasy/LilNinja/LilNinja.unity using Guid(4293502f938fdaa4ea3942fc43b8e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7df6e27f6168da6dbd2b8a4d38b8a9') in 0.002829 seconds
-  Import took 0.007245 seconds .
+  Time since last request: 2.782525 seconds.
+  path: Assets/Dodgeball/Scenes/CaptureTheFlag.unity
+  artifactKey: Guid(317cb073fc86648c99e601536d48bf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/Scenes/CaptureTheFlag.unity using Guid(317cb073fc86648c99e601536d48bf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eca7c7439eef2d1582c82bedec7b6ac') in 0.003158 seconds
+  Import took 0.008411 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008848 seconds.
+Registered in 0.010661 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.641 seconds
+- Completed reload, in  1.121 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2752 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 198.6 MB.
-System memory in use after: 198.8 MB.
+System memory in use before: 195.8 MB.
+System memory in use after: 196.0 MB.
 
-Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3234.
-Total: 2.379600 ms (FindLiveObjects: 0.271000 ms CreateObjectMapping: 0.147300 ms MarkObjects: 1.927600 ms  DeleteObjects: 0.033000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 216.451020 seconds.
-  path: Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Happy.anim
-  artifactKey: Guid(99577c3349048714fab87e18892f90c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Happy.anim using Guid(99577c3349048714fab87e18892f90c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd297053af4b488d19619c4311a8176cd') in 0.018350 seconds
-  Import took 0.022955 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008043 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.691 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2752 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 198.6 MB.
-System memory in use after: 198.9 MB.
-
-Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3238.
-Total: 3.638600 ms (FindLiveObjects: 0.432000 ms CreateObjectMapping: 0.207400 ms MarkObjects: 2.966200 ms  DeleteObjects: 0.031500 ms)
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3227.
+Total: 2.695100 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.134500 ms MarkObjects: 2.245200 ms  DeleteObjects: 0.049900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 116.755629 seconds.
-  path: Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Sad.anim
-  artifactKey: Guid(8293730ec5d96ba438f2f1e43df5fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Sad.anim using Guid(8293730ec5d96ba438f2f1e43df5fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb04fd452d73e0216fe0d2359ab1304') in 0.015996 seconds
-  Import took 0.020583 seconds .
+  Time since last request: 4252.495653 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Source
+  artifactKey: Guid(aa5a1ac95d321eb428f3121b57c1c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Source using Guid(aa5a1ac95d321eb428f3121b57c1c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8f67a2a98001c503d785b52de924ef') in 0.005541 seconds
+  Import took 0.010330 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.600767 seconds.
-  path: Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Surprised.anim
-  artifactKey: Guid(42d8e4c633c7dda41b36696ec609bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Surprised.anim using Guid(42d8e4c633c7dda41b36696ec609bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d4b658d58c86e1f472dc68184e896b') in 0.002904 seconds
-  Import took 0.007701 seconds .
+  Time since last request: 0.068849 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Source/LilNinja.fbx
+  artifactKey: Guid(5adf7bdfbf33b644b8dc9fdbe55ef104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Source/LilNinja.fbx using Guid(5adf7bdfbf33b644b8dc9fdbe55ef104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cd827e9e5d8753bd779e007f9ea8f0') in 0.165771 seconds
+  Import took 0.170663 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002264 seconds.
-  path: Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Surprised.anim
-  artifactKey: Guid(42d8e4c633c7dda41b36696ec609bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Surprised.anim using Guid(42d8e4c633c7dda41b36696ec609bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d4b658d58c86e1f472dc68184e896b') in 0.002915 seconds
-  Import took 0.006967 seconds .
+  Time since last request: 16.164473 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Source/LilNinja.controller
+  artifactKey: Guid(a06a8647dbfdcf84eb094d148ba1c676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Source/LilNinja.controller using Guid(a06a8647dbfdcf84eb094d148ba1c676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e4d0af9d32b918c0c79282f894bbec') in 0.007011 seconds
+  Import took 0.012438 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.130620 seconds.
-  path: Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Dead.anim
-  artifactKey: Guid(ca92a24f185adf34bb3c18625215ae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Dead.anim using Guid(ca92a24f185adf34bb3c18625215ae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed6826102452e5a14eb20b2fd9e808a') in 0.002743 seconds
-  Import took 0.007390 seconds .
+  Time since last request: 0.001083 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Source/LilNinja.controller
+  artifactKey: Guid(a06a8647dbfdcf84eb094d148ba1c676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Source/LilNinja.controller using Guid(a06a8647dbfdcf84eb094d148ba1c676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e4d0af9d32b918c0c79282f894bbec') in 0.002426 seconds
+  Import took 0.007081 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000947 seconds.
-  path: Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Dead.anim
-  artifactKey: Guid(ca92a24f185adf34bb3c18625215ae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters/Fantasy/LilNinja/Eye Expressions/Dead.anim using Guid(ca92a24f185adf34bb3c18625215ae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed6826102452e5a14eb20b2fd9e808a') in 0.002417 seconds
-  Import took 0.006499 seconds .
+  Time since last request: 3285.858520 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Textures
+  artifactKey: Guid(2ee0e6a832bd18e4e8f4099d5256bc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Textures using Guid(2ee0e6a832bd18e4e8f4099d5256bc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acffbd2b24b087a17d4c1cf6d4f9a8fb') in 0.002341 seconds
+  Import took 0.012090 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.912331 seconds.
-  path: Assets/Models/Characters/Fantasy/LilNinja/LilNinjaSettings.lighting
-  artifactKey: Guid(33698731ef7c4c2489520d86ccf7e2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters/Fantasy/LilNinja/LilNinjaSettings.lighting using Guid(33698731ef7c4c2489520d86ccf7e2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e417c1ca4c923503177f3b417beb0d0') in 0.004407 seconds
-  Import took 0.008689 seconds .
+  Time since last request: 0.000661 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Textures
+  artifactKey: Guid(2ee0e6a832bd18e4e8f4099d5256bc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Textures using Guid(2ee0e6a832bd18e4e8f4099d5256bc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acffbd2b24b087a17d4c1cf6d4f9a8fb') in 0.001691 seconds
+  Import took 0.006331 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002451 seconds.
-  path: Assets/Models/Characters/Fantasy/LilNinja/LilNinjaSettings.lighting
-  artifactKey: Guid(33698731ef7c4c2489520d86ccf7e2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Characters/Fantasy/LilNinja/LilNinjaSettings.lighting using Guid(33698731ef7c4c2489520d86ccf7e2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e417c1ca4c923503177f3b417beb0d0') in 0.002413 seconds
-  Import took 0.006473 seconds .
+  Time since last request: 0.035212 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Textures/Eyes.mat
+  artifactKey: Guid(671863bf67a03b54c94b3341f4bbc062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Textures/Eyes.mat using Guid(671863bf67a03b54c94b3341f4bbc062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87888dd7b10e675c996f7141faf7342') in 0.027414 seconds
+  Import took 0.031819 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 390.255937 seconds.
-  path: Assets/ML-Agents
-  artifactKey: Guid(11630fa83cc8b4194b94352e3e6cdb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ML-Agents using Guid(11630fa83cc8b4194b94352e3e6cdb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e65f7a447c3eafd0660b3a2094c142') in 0.002804 seconds
-  Import took 0.008373 seconds .
+  Time since last request: 0.000213 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Textures/LilNinja.png
+  artifactKey: Guid(cd2f44e7187d3bb4f97d779c76892d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Textures/LilNinja.png using Guid(cd2f44e7187d3bb4f97d779c76892d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2447c34f9fdcf6f896bb09e2c59db37') in 0.024241 seconds
+  Import took 0.028557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Textures/Eyes.mat
+  artifactKey: Guid(671863bf67a03b54c94b3341f4bbc062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Textures/Eyes.mat using Guid(671863bf67a03b54c94b3341f4bbc062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87888dd7b10e675c996f7141faf7342') in 0.006913 seconds
+  Import took 0.011169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Textures/LilNinja.mat
+  artifactKey: Guid(a7a2c2fcce4329a47822a8cf4e012b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Textures/LilNinja.mat using Guid(a7a2c2fcce4329a47822a8cf4e012b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa3d6f1efa8e1c97085e5bb9a3cd0e5') in 0.007476 seconds
+  Import took 0.012540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Textures/LilNinjaEyes.png
+  artifactKey: Guid(bf69f9cdb5f70564e9fe19a2a0d5e385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Textures/LilNinjaEyes.png using Guid(bf69f9cdb5f70564e9fe19a2a0d5e385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f99310100ca08650bb3d82bc411bb6') in 0.005642 seconds
+  Import took 0.010378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.131830 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e14e0ec71abbac28bf2f3bc07d884e') in 0.038539 seconds
+  Import took 0.043625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/SharedAssets/Materials/Textures/NetAL.tif
+  artifactKey: Guid(47c07dd05d80a8d42b0329ff416b8455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Materials/Textures/NetAL.tif using Guid(47c07dd05d80a8d42b0329ff416b8455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756194399f1f615db839c28414967634') in 0.010381 seconds
+  Import took 0.015509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e14e0ec71abbac28bf2f3bc07d884e') in 0.013058 seconds
+  Import took 0.017253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Shurikens Stars/Textures/4k/shurikens_black_ver2_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(ff3a43bc661eb3a418ff9d614f0f13d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Textures/4k/shurikens_black_ver2_DefaultMaterial_MetallicSmoothness.png using Guid(ff3a43bc661eb3a418ff9d614f0f13d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc798c4c01af43addde7b508a2193bba') in 0.082801 seconds
+  Import took 0.088500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/SharedAssets/Materials/Textures/LogoCube.png
+  artifactKey: Guid(be5d24d9d9e024be784fbcb911cb18e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Materials/Textures/LogoCube.png using Guid(be5d24d9d9e024be784fbcb911cb18e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632d2ef62a1ea80682d5fa0a41e92545') in 0.019854 seconds
+  Import took 0.024079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Dodgeball/Materials/Ramp01.png
+  artifactKey: Guid(c07de05b9bda8f6409252857c36d7ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/Materials/Ramp01.png using Guid(c07de05b9bda8f6409252857c36d7ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48522ada41c585478d157105a2d8c2b') in 0.005185 seconds
+  Import took 0.009574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97e54bf24592602f3573ca0a8a48715') in 0.035956 seconds
+  Import took 0.040678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Shurikens Stars/Textures/4k/shurikens_black_ver2_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(7e082f10792dd9c40af08dc76664b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Textures/4k/shurikens_black_ver2_DefaultMaterial_AlbedoTransparency.png using Guid(7e082f10792dd9c40af08dc76664b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe6f5008a357a393e8df2759b920751') in 0.035787 seconds
+  Import took 0.040361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002456 seconds.
+  path: Assets/Shurikens Stars/Textures/4k/shurikens_black_ver2_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(7e082f10792dd9c40af08dc76664b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Textures/4k/shurikens_black_ver2_DefaultMaterial_AlbedoTransparency.png using Guid(7e082f10792dd9c40af08dc76664b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe6f5008a357a393e8df2759b920751') in 0.010653 seconds
+  Import took 0.015249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.230102 seconds.
+  path: Assets/Dodgeball/3D Assets/Fenced Platform.fbx
+  artifactKey: Guid(39bfec153e12f4840a90a1c6a2b28f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/3D Assets/Fenced Platform.fbx using Guid(39bfec153e12f4840a90a1c6a2b28f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39b318705fff693dd3653bef38ddc3c') in 0.253364 seconds
+  Import took 0.258563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Dodgeball/3D Assets/HedgeCircle.fbx
+  artifactKey: Guid(cb8083d36738b4d1b97a7fa021c207f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/3D Assets/HedgeCircle.fbx using Guid(cb8083d36738b4d1b97a7fa021c207f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370c97340e8cf1e59c8766c4e0fd7025') in 0.046901 seconds
+  Import took 0.051459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Dodgeball/3D Assets/Fenced Platform.fbx
+  artifactKey: Guid(39bfec153e12f4840a90a1c6a2b28f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/3D Assets/Fenced Platform.fbx using Guid(39bfec153e12f4840a90a1c6a2b28f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39b318705fff693dd3653bef38ddc3c') in 0.259909 seconds
+  Import took 0.264591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Dodgeball/3D Assets/HedgeCircle.fbx
+  artifactKey: Guid(cb8083d36738b4d1b97a7fa021c207f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/3D Assets/HedgeCircle.fbx using Guid(cb8083d36738b4d1b97a7fa021c207f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370c97340e8cf1e59c8766c4e0fd7025') in 0.043447 seconds
+  Import took 0.047542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.341802 seconds.
+  path: Assets/Dodgeball/3D Assets/Hills.fbx
+  artifactKey: Guid(9060b06670827441fbe3836cfa75fb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/3D Assets/Hills.fbx using Guid(9060b06670827441fbe3836cfa75fb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15abaee6a6ed2e256df079e9a163214') in 0.012175 seconds
+  Import took 0.017117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Dodgeball/3D Assets/JiggleBushSmall.fbx
+  artifactKey: Guid(43c56120609174897b9253a1735e52d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/3D Assets/JiggleBushSmall.fbx using Guid(43c56120609174897b9253a1735e52d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3223bc421afa8bed153c37b3b2a81f9e') in 0.018325 seconds
+  Import took 0.022190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.350560 seconds.
+  path: Assets/Dodgeball/3D Assets/FatBush.fbx
+  artifactKey: Guid(8a9c1dd28b3324b6ba4866c78b116c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/3D Assets/FatBush.fbx using Guid(8a9c1dd28b3324b6ba4866c78b116c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4349387164123d05451978e9a600ae21') in 0.012957 seconds
+  Import took 0.018558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.171984 seconds.
+  path: Assets/Dodgeball/3D Assets/cloud1.fbx
+  artifactKey: Guid(f21684701039c47b5b25da484980805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/3D Assets/cloud1.fbx using Guid(f21684701039c47b5b25da484980805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c0e6efe097a54ab6f1e834bc2ef672') in 0.029139 seconds
+  Import took 0.034323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.461214 seconds.
+  path: Assets/Dodgeball/3D Assets/CircleArenaThin.fbx
+  artifactKey: Guid(fc5fbd7cd5a2843679c8ff24a33a9439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/3D Assets/CircleArenaThin.fbx using Guid(fc5fbd7cd5a2843679c8ff24a33a9439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1544e6c842b55d9d7251562549f8784a') in 0.015146 seconds
+  Import took 0.020561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Dodgeball/3D Assets/CircleArena.fbx
+  artifactKey: Guid(0b761050f141747b2a53d771431abc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/3D Assets/CircleArena.fbx using Guid(0b761050f141747b2a53d771431abc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc6f15cb0a57cf5088959111a9788c3') in 0.013543 seconds
+  Import took 0.018107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007562 seconds.
+  path: Assets/Dodgeball/3D Assets/TallBush.fbx
+  artifactKey: Guid(195cd5d7a37aa4ef8b852d5dc3332ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/3D Assets/TallBush.fbx using Guid(195cd5d7a37aa4ef8b852d5dc3332ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fae677fa68301efe923b0edb851dcb') in 0.016795 seconds
+  Import took 0.022754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011684 seconds.
+  path: Assets/SharedAssets/Meshes/AgentCube.fbx
+  artifactKey: Guid(d42ce640bd273f14fb3076ec3bcd8a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Meshes/AgentCube.fbx using Guid(d42ce640bd273f14fb3076ec3bcd8a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048707af2f77c1c51d83c8d0c16b6ff2') in 0.014082 seconds
+  Import took 0.020470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.939855 seconds.
+  path: Assets/SharedAssets/Custom Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Custom Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f19663046e8f56c0c10de93624bf7c') in 0.017045 seconds
+  Import took 0.021529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5700defba0601f10394b8e625d30cf7') in 0.007332 seconds
+  Import took 0.011793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/SharedAssets/Custom Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Custom Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f19663046e8f56c0c10de93624bf7c') in 0.007321 seconds
+  Import took 0.011388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.778845 seconds.
+  path: Assets/SharedAssets/Custom Fonts/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Custom Fonts/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad35962f677c7ef13f8aaeed507dc230') in 0.087105 seconds
+  Import took 0.091527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/SharedAssets/Custom Fonts/Bangers SDF - Outline.mat
+  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Custom Fonts/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebf4975e65685f7e6d63de6168c70ba') in 0.064530 seconds
+  Import took 0.068604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/SharedAssets/Custom Fonts/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Custom Fonts/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ed6b996af36e01ed9f34e29411d082') in 0.068311 seconds
+  Import took 0.072214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/SharedAssets/Custom Fonts/Bangers SDF Logo.mat
+  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Custom Fonts/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a2c7c62911ad34d374f5c8e8c45103') in 0.266710 seconds
+  Import took 0.270558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.370337 seconds.
+  path: Assets/Dodgeball/Materials/HIT_BY_BALL_MAT.mat
+  artifactKey: Guid(d19c4a36e88c745ae9b71cb73be6fe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/Materials/HIT_BY_BALL_MAT.mat using Guid(d19c4a36e88c745ae9b71cb73be6fe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935425a307c066d3b98f257f0411d1a0') in 0.008500 seconds
+  Import took 0.013628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee13205bf0a21714f51a3f10fe9602bd') in 0.024231 seconds
+  Import took 0.029307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005125 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee13205bf0a21714f51a3f10fe9602bd') in 0.024084 seconds
+  Import took 0.028764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.242496 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71646f6b7222829c477b7c3d5eb39f23') in 0.023727 seconds
+  Import took 0.028912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.297733 seconds.
+  path: Assets/SharedAssets/Meshes/symbol_x.fbx
+  artifactKey: Guid(df826ba32791e458caefe83b4498ce35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Meshes/symbol_x.fbx using Guid(df826ba32791e458caefe83b4498ce35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20c492b5b9bc01e635c5b52c1b276d5') in 0.013170 seconds
+  Import took 0.017945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_2.fbx
+  artifactKey: Guid(a0bd6d3e701416e46aca018bf8aecd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_2.fbx using Guid(a0bd6d3e701416e46aca018bf8aecd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c33ddafbf1a0a3905bc283fd05ad68') in 0.013545 seconds
+  Import took 0.017892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_7.fbx
+  artifactKey: Guid(820c42e049e4cf14fb5acaf07a0437c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_7.fbx using Guid(820c42e049e4cf14fb5acaf07a0437c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0634dc24ed65a8e675b33d3ba8285b') in 0.013383 seconds
+  Import took 0.018375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_1.fbx
+  artifactKey: Guid(b10f8a565f601ec45adc591261b5fcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_1.fbx using Guid(b10f8a565f601ec45adc591261b5fcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a07fb6855e5cb873a5da88e3f15411a') in 0.013703 seconds
+  Import took 0.017925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_16.fbx
+  artifactKey: Guid(ffa6c58fd11c9f84ea62c3d0ce2c5a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_16.fbx using Guid(ffa6c58fd11c9f84ea62c3d0ce2c5a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98db26f0de8fdc6382f5421238e55df4') in 0.013563 seconds
+  Import took 0.018180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_4.fbx
+  artifactKey: Guid(b22f36547b3e0d44ba913cafbf4d0856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_4.fbx using Guid(b22f36547b3e0d44ba913cafbf4d0856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306e241f66a103b2839caa73c8b3c1f5') in 0.013106 seconds
+  Import took 0.017795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/SharedAssets/Meshes/symbol_star.fbx
+  artifactKey: Guid(5f278eab42a404bf4b9b70618654218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Meshes/symbol_star.fbx using Guid(5f278eab42a404bf4b9b70618654218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d21da3ca21ab776eeb1d572debf82eb') in 0.013622 seconds
+  Import took 0.017901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_6.fbx
+  artifactKey: Guid(89fbb236ab03e5e4ba55a61d45b58a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_6.fbx using Guid(89fbb236ab03e5e4ba55a61d45b58a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42ebf985a1efc4ec15f15aa838fef68') in 0.012697 seconds
+  Import took 0.017132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_5.fbx
+  artifactKey: Guid(5059935843f1b6f4b9a11c0a74c6b254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_5.fbx using Guid(5059935843f1b6f4b9a11c0a74c6b254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e0c56885bfc4671f4cb87311785df6') in 0.011909 seconds
+  Import took 0.016153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.167302 seconds.
+  path: Assets/SharedAssets/Meshes/symbol_tri.fbx
+  artifactKey: Guid(09e2da39770c24cc9a71e5dbf05a1e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Meshes/symbol_tri.fbx using Guid(09e2da39770c24cc9a71e5dbf05a1e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd1c15bf380156f5399bb3103c79e97') in 0.011405 seconds
+  Import took 0.016576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.337025 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_8.fbx
+  artifactKey: Guid(a304e6773d9b72d4eb9604223255d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_8.fbx using Guid(a304e6773d9b72d4eb9604223255d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f41457cf893b51fe0c8bae289161d7') in 0.013493 seconds
+  Import took 0.018422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_11.fbx
+  artifactKey: Guid(9205f96af81b467448be862fab42156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_11.fbx using Guid(9205f96af81b467448be862fab42156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e7139d88668f26510134d19fd60212') in 0.012422 seconds
+  Import took 0.016920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_9.fbx
+  artifactKey: Guid(049e2df761035384794d8325ceb0b29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_9.fbx using Guid(049e2df761035384794d8325ceb0b29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204adebf586b59f3acb3b6eea0af5bf2') in 0.013882 seconds
+  Import took 0.018584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_12.fbx
+  artifactKey: Guid(1843e386327cd4d4eab98a31c4de55b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_12.fbx using Guid(1843e386327cd4d4eab98a31c4de55b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa5040e7e3f596277828609b8d06229') in 0.014934 seconds
+  Import took 0.020008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/SharedAssets/Meshes/symbol_circle.fbx
+  artifactKey: Guid(809601725d53c41fb9c7a75071bfbf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Meshes/symbol_circle.fbx using Guid(809601725d53c41fb9c7a75071bfbf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd55eea488777655dfeeadc2e071050') in 0.013707 seconds
+  Import took 0.018478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_3.fbx
+  artifactKey: Guid(b3f1014e81a8874429d928c443a4bc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_3.fbx using Guid(b3f1014e81a8874429d928c443a4bc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3620887b9712a9dd1acf97f8c80282a') in 0.014100 seconds
+  Import took 0.018728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_10.fbx
+  artifactKey: Guid(0f1a4dc041e58814eab6f7e3e887e9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_10.fbx using Guid(0f1a4dc041e58814eab6f7e3e887e9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04af9f7621b79d6b9d3cafd380da7ebd') in 0.013062 seconds
+  Import took 0.017673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_8.fbx
+  artifactKey: Guid(a304e6773d9b72d4eb9604223255d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_8.fbx using Guid(a304e6773d9b72d4eb9604223255d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f41457cf893b51fe0c8bae289161d7') in 0.012035 seconds
+  Import took 0.016622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_13.fbx
+  artifactKey: Guid(4d4b1e75355cabe40aca90f8869e8e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_13.fbx using Guid(4d4b1e75355cabe40aca90f8869e8e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926335ff46af2d5568f75f3161dfc6e5') in 0.013436 seconds
+  Import took 0.017971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093795 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_18.fbx
+  artifactKey: Guid(392224e58d13744419f1f314f4c0537f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_18.fbx using Guid(392224e58d13744419f1f314f4c0537f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2210224f77ad5684c2a589f58536f6b3') in 0.013005 seconds
+  Import took 0.018433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_23.fbx
+  artifactKey: Guid(f234942111fd29a498bed450fc5f1274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_23.fbx using Guid(f234942111fd29a498bed450fc5f1274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d40b6cfff7e6386a73ff010a1ade34d') in 0.014306 seconds
+  Import took 0.018891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_24.fbx
+  artifactKey: Guid(6b54c685e636d2641a91edc34c67d3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_24.fbx using Guid(6b54c685e636d2641a91edc34c67d3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d8bc08131973f8e1e1aef3cbd7c5d4') in 0.013123 seconds
+  Import took 0.017472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_17.fbx
+  artifactKey: Guid(9195ea8e6623e374fa94f739be6d7b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_17.fbx using Guid(9195ea8e6623e374fa94f739be6d7b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a070238b480b784a2934b8f69d3a76b') in 0.013353 seconds
+  Import took 0.017654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_14.fbx
+  artifactKey: Guid(0f5a7f9deacd4ba4b9bf1f6b996b8f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_14.fbx using Guid(0f5a7f9deacd4ba4b9bf1f6b996b8f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015f3382a825111e3ae56a1bc1c32730') in 0.012102 seconds
+  Import took 0.016439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.330799 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_21.fbx
+  artifactKey: Guid(b6546b838310c5b48a6a98ed99bcdd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_21.fbx using Guid(b6546b838310c5b48a6a98ed99bcdd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d161a3cd27f956cc7022d8ecec563f') in 0.014125 seconds
+  Import took 0.020198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_20.fbx
+  artifactKey: Guid(6151ba4bc1e156046ab5d3a08a16a4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_20.fbx using Guid(6151ba4bc1e156046ab5d3a08a16a4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e3a5e291a1b5001bcb725e34a8fbd7') in 0.013283 seconds
+  Import took 0.017754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_19.fbx
+  artifactKey: Guid(2c128a23f473f094aa6dcb826b88428d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_19.fbx using Guid(2c128a23f473f094aa6dcb826b88428d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a67f3c03324d3b42057d65ec4af899') in 0.012822 seconds
+  Import took 0.017333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_15.fbx
+  artifactKey: Guid(6d7a4a0bb6337a143b92748ed3cfa8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_15.fbx using Guid(6d7a4a0bb6337a143b92748ed3cfa8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5256c390a66c89bce27b629a9be74614') in 0.012802 seconds
+  Import took 0.017185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_22.fbx
+  artifactKey: Guid(74addd7fe9bb0cd4cb0e1a37e6bebf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_22.fbx using Guid(74addd7fe9bb0cd4cb0e1a37e6bebf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7557f66e62fe13b103b7526c58f12b0') in 0.012596 seconds
+  Import took 0.017655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_20.fbx
+  artifactKey: Guid(6151ba4bc1e156046ab5d3a08a16a4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_20.fbx using Guid(6151ba4bc1e156046ab5d3a08a16a4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e3a5e291a1b5001bcb725e34a8fbd7') in 0.011682 seconds
+  Import took 0.015840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Shurikens Stars/Meshes/Shuriken_21.fbx
+  artifactKey: Guid(b6546b838310c5b48a6a98ed99bcdd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shurikens Stars/Meshes/Shuriken_21.fbx using Guid(b6546b838310c5b48a6a98ed99bcdd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d161a3cd27f956cc7022d8ecec563f') in 0.011571 seconds
+  Import took 0.015771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.841314 seconds.
+  path: Assets/Dodgeball/3D Assets/OakTree.fbx
+  artifactKey: Guid(537e3e0c522884cb8aae126557fbd981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/3D Assets/OakTree.fbx using Guid(537e3e0c522884cb8aae126557fbd981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afae2a48dca2e46f4f859bbaffd139f') in 0.013422 seconds
+  Import took 0.017997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237103 seconds.
+  path: Assets/Dodgeball/Materials/TransparentBlue.mat
+  artifactKey: Guid(8204869fe7ab74c42b12ccb14f729ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/Materials/TransparentBlue.mat using Guid(8204869fe7ab74c42b12ccb14f729ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3253fce9b2294ef76705ffa0b201b764') in 0.006850 seconds
+  Import took 0.011256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Dodgeball/Materials/TransparentPurple.mat
+  artifactKey: Guid(8950c0cb8fb7146b29139e715e332e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dodgeball/Materials/TransparentPurple.mat using Guid(8950c0cb8fb7146b29139e715e332e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d614d05d91da1d09ed0add1775b943') in 0.006123 seconds
+  Import took 0.010303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 226.728480 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Animators
+  artifactKey: Guid(b2f1aa850ad86b34d82a161580a0c471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Animators using Guid(b2f1aa850ad86b34d82a161580a0c471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176dec372b875f0904adda6102c47329') in 0.002156 seconds
+  Import took 0.007129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.980614 seconds.
+  path: Assets/Models/Characters/Fantasy/LilNinja/Animators/NinjaAgent.controller
+  artifactKey: Guid(c550839705081cf45a1c3dba8804b16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Fantasy/LilNinja/Animators/NinjaAgent.controller using Guid(c550839705081cf45a1c3dba8804b16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698ddd169ee678adae34d6829e125c2f') in 0.003018 seconds
+  Import took 0.007873 seconds .
 
